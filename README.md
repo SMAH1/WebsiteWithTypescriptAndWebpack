@@ -1,5 +1,5 @@
 
-Simple website with typescript and webpack without any app (angular/recat/vue/...).
+Simple website with typescript and webpack without any app (angular/react/vue/...).
 
 ## Structure
 
