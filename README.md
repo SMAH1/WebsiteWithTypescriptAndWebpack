@@ -7,19 +7,23 @@ Simple website with typescript and webpack without any app (angular/react/vue/..
 ├── package.json  
 ├── tsconfig.json  
 ├── webpack.config.js  
+├── bs-config.js  
 │  
 ├── src/  
 │   ├── html/index.html  
-│   └── ts/main.ts  
+│   ├── ts/main.ts  
+│   └── ts/types/global.d.ts  
 │  
 └── build/  
 
-* File _package.json_: Configuration of project and dependencies
-* File _tsconfig.json_: Configuration of typescript
-* File _webpack.config.js_: Configuration of webpack (build, run, ...)
-* Directory _build_: Output of project (html, js, ...)
-* Directory _src/html_: Static files of project (*.html)
-* Directory _src/ts_: Code files of project (*.html)
+* File `package.json`: Configuration of project and dependencies
+* File `tsconfig.json`: Configuration of typescript
+* File `webpack.config.js`: Configuration of webpack
+* File `bs-config`: Configuration of browser-sync
+* Directory `build`: Output of project (html, js, ...)
+* Directory `src/html`: Static files of project (*.html)
+* Directory `src/ts`: Code files of project (*.ts)
+* Directory `src/types`: Global type definitions of project (*.ts)
 
 ## How use
 
@@ -40,5 +44,10 @@ Now, open internet browser and show site.
 ## Next
 * Clone project
 * Add your dependencies
-* Create/Change _html file_ or _ts files_
+* Create/Change
+  * _html files_
+  * _javascript files_
+  * _ts files_
+  * _images_
+  * ....
 * See result
