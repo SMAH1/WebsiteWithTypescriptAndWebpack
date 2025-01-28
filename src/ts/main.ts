@@ -19,4 +19,4 @@ function showMessage(): void {
   alert('WOW!');
 }
 
-window['showMessage'] = showMessage;
+window.showMessage = showMessage;
